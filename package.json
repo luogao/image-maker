@@ -1,5 +1,5 @@
 {
-  "name": "icon-maker",
+  "name": "lg-icon-maker",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "RoyLuo <royluogao@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.19.0",
