@@ -14,18 +14,18 @@ $ npm install && sudo npm link
 
 - 默认
 
-  ```bash
-  $ im make <target>
-  ```
+```bash
+$ im make <target>
+```
 
-  这里`target` 指的是目标图片，输出的路径默认为当前文件夹的`im-output`
+这里`target` 指的是目标图片，输出的路径默认为当前文件夹的`im-output`
 
 - 指定输出路径
-  
-  ```bash
-  $ im make <target> -o [path]
-  ```
-   这里`path` 指的是输出的路径（文件夹）
+
+```bash
+$ im make <target> -o [path]
+```
+  这里`path` 指的是输出的路径（文件夹）
 
 # Todo
 
