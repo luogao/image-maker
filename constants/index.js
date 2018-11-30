@@ -1,6 +1,6 @@
 const path = require('path')
-
-exports.DEFAULTOUTPUTBASENAME = 'im-output'
+const DEFAULTOUTPUTBASENAME = 'im-output'
+exports.DEFAULTOUTPUTBASENAME
 exports.CUSTOMCONFIGPATH = path.resolve(
   process.cwd(),
   path.join('imconfig.json')
