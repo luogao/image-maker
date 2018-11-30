@@ -6,6 +6,7 @@ program.version(require('../package').version).usage('<command> [options]')
 program
   .command('make [dir]')
   .option('-o, --output [path]', 'output path')
+  .option('-t, --type [typeName]', 'output image(s)\'s size setting')
   .description('make icon')
   .action((dir, cmd) => {
     require('../lib/make')(dir, cmd)

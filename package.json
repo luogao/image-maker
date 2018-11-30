@@ -1,6 +1,6 @@
 {
-  "name": "icon-marker",
-  "version": "1.0.0",
+  "name": "icon-maker",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
