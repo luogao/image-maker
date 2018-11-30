@@ -1,0 +1,20 @@
+{
+  "name": "icon-marker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "im": "./bin/im.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ora": "^3.0.0",
+    "sharp": "^0.21.0"
+  }
+}
