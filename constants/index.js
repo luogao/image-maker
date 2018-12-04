@@ -1,5 +1,6 @@
 const path = require('path')
 const DEFAULTOUTPUTBASENAME = 'im-output'
+
 exports.DEFAULTOUTPUTBASENAME
 exports.CUSTOMCONFIGPATH = path.resolve(
   process.cwd(),
