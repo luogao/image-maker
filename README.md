@@ -18,7 +18,7 @@ $ npm install && sudo npm link
 $ im make <target>
 ```
 
-这里`target` 指的是目标图片，输出的路径默认为当前文件夹的`im-output`
+这里`target` 指的是目标图片，输出的路径默认为当前文件夹的`im-output`
 
 - 指定输出路径
 
