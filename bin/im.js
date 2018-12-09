@@ -19,6 +19,13 @@ program
     require('../lib/tiny')(dir, cmd)
   })
 
+program
+  .command('base64 [dir]')
+  .description('Transfer image to base64 string')
+  .action((dir, cmd) => {
+    require('../lib/base64')(dir, cmd)
+  })
+
 program.parse(process.argv)
 
 if (!process.argv.slice(2).length) {

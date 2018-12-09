@@ -3,5 +3,6 @@ node_modules
 *.log
 .idea/
 package-lock.json
-lgconfig.json
 im-output
+imconfig.json
+base64-result.txt

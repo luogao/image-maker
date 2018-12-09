@@ -24,3 +24,30 @@ exports.makeDir = dir => {
     fs.mkdirSync(dir)
   }
 }
+
+exports.getFileInfo = file => {
+  return new Promise((resolve, reject) => {
+    fs.stat(file, (err, data) => {
+      if (err) {
+        return reject(err)
+      }
+      resolve(data)
+    })
+  })
+}
+
+exports.getImagePrefix = dir => {
+  const fileExtName = path.extname(dir).replace('.', '')
+  switch (fileExtName) {
+    case 'png':
+      return 'data:image/png;base64,'
+    case 'jpeg':
+      return 'data:image/jpeg;base64,'
+    case 'jpg':
+      return 'data:image/jpg;base64,'
+    case 'gif':
+      return 'data:image/gif;base64,'
+    default:
+      return 'data:image/jpg;base64,'
+  }
+}
