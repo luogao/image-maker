@@ -32,13 +32,13 @@ $ im make <target> -o [path]
 $ im tiny <target>
 ```
 
-这里`target` 指的是目标图片，输出的路径默认为当前文件所在的路径，默认输出文件名为`target`的原名前加上`test-`，这个指令是通过`tinify`提供的API，并且这里每个月只能进行500张图的压缩。详情请查询其[官网](https://tinypng.com/developers)
+这里`target` 指的是目标图片，输出的路径默认为当前文件所在的路径，默认输出文件名为`target`的原名前加上`test-`，这个指令是通过`tinify`提供的API，并且这里每个月只能进行500张图的压缩。详情请查询其[官网](https://tinypng.com/developers)
 
 ```bash
 $ im base64 <target>
 ```
 
-这里`target` 指的是目标图片，输出的是包含base64结果的`base64-result.txt`文件，默认输出结果文件路径名为`target`的所在路径，这里`target`图片尺寸不得大于**500KB**
+这里`target` 指的是目标图片，输出的是包含base64结果的`base64-result.txt`文件，默认输出结果文件路径名为`target`的所在路径，这里`target`图片尺寸不得大于**500KB**
 
 
 # Todo
